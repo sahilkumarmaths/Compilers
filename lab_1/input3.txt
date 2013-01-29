@@ -1,0 +1,28 @@
+while 5+3 do 
+	while 6<3 do 
+		while 8>9 do
+		 if (9*3+8) then 
+			if 6 = 3 then
+				begin
+					if 5+3 then a:= 4;
+					b:= 6;
+					while 5+3 do a:= 8;
+					c:= 3;
+					begin
+						if 5+3 then a:= 4;
+						b:= 6;
+						while 5+3 do a:= 8;
+						c:= 3
+					end;
+					
+					if 5+3 then a:= 4;
+					b:= 6;
+					while 5+3 do a:= 8;
+					c:= 3;
+					begin
+						if 5+3 then a:= 4;
+						b:= 6;
+						while 5+3 do a:= 8;
+						c:= 3
+					end
+				end

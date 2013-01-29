@@ -1,0 +1,8 @@
+	begin
+		begin
+			while 5+3 do a:= 8;
+			c:= 3
+		end;
+		b := 3
+	end
+

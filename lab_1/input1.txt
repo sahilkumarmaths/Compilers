@@ -1,0 +1,5 @@
+begin 
+	if 2-5*3 then a:= 4;
+	b:= 3;
+	c:= 3
+end
