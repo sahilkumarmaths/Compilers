@@ -28,7 +28,7 @@ This is a parser that accepts strings according to the following grammar.
 	factor --------------> number 
 													 | (expression) 
 													 
-									
+
 /--------------------Compilation-----------------------------------------------------/
 
  gcc main.c lex.c lex.h name.c code_generator.c 
