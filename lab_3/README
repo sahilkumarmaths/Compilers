@@ -1,0 +1,35 @@
+*****************************************************************
+Author:
+	Gunamgari Sharath Reddy        10010174
+	P V S Dileep               	   10010180
+	Sahil Kumar Goyal              10010175
+Date:
+	5/3/2013
+*****************************************************************
+Compilation:
+	g++ lexer.cpp				
+	g++	lexer_minimal_munch.cpp
+*****************************************************************
+Run:
+	./a.out input_1 grammer_1  < reg_lex 
+	./a.out input_2 grammer_2  < reg_lex 
+*****************************************************************	
+Implementation:
+	a) Parses the grammer_1 file and then generates the NFA for
+	   each line.
+	b) Combines all the NFA's and generates a single NFA.
+	c) Converts the NFA to DFA
+	d) Simulate the input_1 file on the DFA.
+	e) Outputs the <token_class,optional attribute> for each lexeme
+	   matched.
+	   
+*****************************************************************
+Compilation of flex:
+	flex analyser.l			
+	gcc lex.yy.c -ll
+*****************************************************************
+Run of flex:
+	./a.out < input_1
+	./a.out < input_2
+	./a.out < input_3
+

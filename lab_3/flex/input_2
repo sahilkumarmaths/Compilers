@@ -1,0 +1,18 @@
+int a = 5;
+int b = 3;
+
+a = a + b;
+	if ( a < b )
+	{ 
+		b = b / 8;
+	}
+	else
+	{
+		c = 96;
+		d = 965;
+	}
+int d = 36;
+	for ( d = 1 ; d < 6 ; d++)
+	{
+		printf("A b c d e f 0 1 2 3 " ) ;
+	}

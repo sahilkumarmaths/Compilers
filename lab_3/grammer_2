@@ -1,0 +1,12 @@
+(i.f)|(e.l.s.e)|(f.o.r)|(p.r.i.n.t.f)|(m.a.i.n)	KEYWORDS
+(i.n.t)|(f.l.o.a.t)	TYPES
+(0-9)*	NUMBERS
+/.\*.(a-z|( )|\n|\t|:|,)*.\*./	COMMENT
+#.i.n.c.l.u.d.e.<.(a-z)*.\..h.>	HEADERS
+".(a-z|( )|\.)*."	LITERAL
+(a-z).(a-z)*	ID
+#.d.e.f.i.n.e	MACRO
+=|+|\-|/|<|>|\*	OPERATOR
+;|\(|\)|{|}|[|]|,	PUNCTUATION
+(\n|\t|( ))*	WS
+\|.\||&.&	Logical Operators

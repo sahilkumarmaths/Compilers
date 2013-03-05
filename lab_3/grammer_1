@@ -1,0 +1,9 @@
+(i.f)|(e.l.s.e)|(f.o.r)|(p.r.i.n.t.f)	KEYWORDS
+(i.n.t)|(f.l.o.a.t)	TYPES
+(0-9)*	NUMBERS
+".(A|b-f|0-9|( ))*."	LITERAL
+(a-f).(a-f|0-9)*	ID
++.+	UNARY
+=|+|\-|/|<|>|\*	OPERATOR
+;|\(|\)|{|}|[|]	PUNCTUATION
+(\n|\t|( ))*	WS

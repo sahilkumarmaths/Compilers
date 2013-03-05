@@ -1,0 +1,12 @@
+int a = 5;
+int b = 3;
+
+a = a + b;
+	if ( a < b )
+	{
+		b = b * 8;
+	}
+	else
+	{
+		c = 96;
+	}

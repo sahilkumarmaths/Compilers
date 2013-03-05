@@ -1,0 +1,36 @@
+/*
+	author: sahil kumar, dileep, sharath reddy
+*/
+
+
+#include<stdio.h>
+#define macro a+b
+
+
+
+int a = 5;
+int b = 3;
+float = 9;
+int main(int argc,char *argv[])
+{
+
+		a = a + b;
+		if ( a < b )
+		{ 
+			for ( d = 1 ; d < 6 ; d++)
+			{
+				printf("this is a good thing." ) ;
+			}
+			
+		}
+		else
+		{
+			while( d < 9 || e > 98  && f < 9)
+			{
+				for ( d = 1 ; d < 6 ; d++)
+				{
+					printf("this is a good thing." ) ;
+				}
+			}
+		}
+}
