@@ -1,0 +1,6 @@
+N :E A B
+T :ID + @
+S :E
+E - A | ID
+A - B | ID
+B - E | ID

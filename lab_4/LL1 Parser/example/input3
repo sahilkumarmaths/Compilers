@@ -1,0 +1,42 @@
+def : int main(){
+    int id=0;
+    char ch = 'c';
+    float f = 34.5;
+    string str = "Iam a string";
+	do{
+        call : id=yylex();
+    }while(id != 0);
+
+    
+    for(int i = 0; i<100; i=i+1)
+    {
+		if (i < j)
+		{
+			call : printf(str);
+			i = 5;
+			f = f * i / 7 + ch * str;
+		}
+		else 
+		{
+			call : printf("Iam not one");
+			if(i == 3)
+			{
+			continue;
+			};
+		};
+    };
+};
+
+def : int showTable( int a , int b , int c)
+{
+	a = b *c;
+	while (a)
+	{
+		if (a < b < c)
+		{
+			break;
+		};
+		
+		a = b / c + 2 * 8;
+	};
+};$

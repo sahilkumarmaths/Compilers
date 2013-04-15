@@ -1,0 +1,15 @@
+int do_math(int a) {
+  int x = a * 5 + 3
+  
+	int   b = 789.5
+	 a = b < c
+	 while (3 + 4 < a)
+	 {
+		a = b * c 
+		b = 98.5
+	 }
+	 
+
+}
+
+do_math(10)

@@ -1,0 +1,16 @@
+N :stmt_list stmt expr opt_stmts comp lev1 term factor type vardecl func_decl func_args call_args
+T :+ * - / ( ) ID @ TDOUBLE TINTEGER < > >= <= != ; = == if else while do { } int float for , call : break continue def string str char character
+S :stmt_list
+stmt_list - stmt ; stmt_list | @
+stmt - break | continue | call : ID = ID ( call_args ) | call : ID ( call_args ) | ID = expr | vardecl | def : func_decl | if ( expr ) { stmt_list } | if ( expr ) { stmt_list } else { stmt_list } | for ( stmt ; expr ; stmt ) { stmt_list } | do { stmt_list } while ( expr ) | while ( expr ) { stmt_list } | { opt_stmts }
+vardecl - type ID | type ID = expr
+func_decl - type ID ( func_args ) { opt_stmts }
+func_args - @ | vardecl | func_args , vardecl
+call_args - @ | expr | call_args , expr
+opt_stmts - stmt_list | @
+expr - expr comp lev1 | lev1 | str | character
+lev1 - lev1 + term | lev1 - term | term
+term - term * factor | term / factor | factor
+factor - ( expr ) | TDOUBLE | TINTEGER | ID
+comp - < | <= | > | >= | == | !=
+type - int | float | char | string

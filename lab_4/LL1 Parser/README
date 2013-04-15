@@ -1,0 +1,30 @@
+/*****************************************************/
+Compilation:
+	cd LL1 Parser/
+	make
+
+/*****************************************************/
+Output: The result is stored in out file.
+	
+Example 1:
+	make example1
+	
+
+Example 2:
+	make example2
+
+Example 3:
+	make example3
+	
+/*****************************************************/
+Error Examples: The result is stored in out file.	
+
+Error 1:
+	make error1
+Error 2:
+	make error2
+Error 3:
+	make error3
+
+
+

@@ -1,0 +1,103 @@
+********************************Initial Produtions*********************
+A =>  B
+A =>  ID
+B =>  E
+B =>  ID
+E =>  A
+E =>  ID
+
+Erasing i E Erasing j A
+Erasing i E Erasing j B
+
+
+********************************After Left Recursion: Produtions*********************
+A =>  B
+A =>  ID
+A1 =>  @
+B =>  E
+B =>  ID
+E =>  ID A1
+
+
+******************************** Non Terminals***************************************
+*A*	*A1*	*B*	*E*	
+
+
+********************************Terminals******************************************
+*+*	*@*	*ID*	
+
+
+********************************After Left Factoring: Final Produtions*************
+A =>  B
+A =>  ID
+A1 =>  @
+B =>  E
+B =>  ID
+E =>  ID A1
+
+
+
+********************************Printing First sets********************************
++ => *+*	
+
+@ => *@*	
+
+A => *ID*	
+
+A1 => *@*	
+
+B => *ID*	
+
+E => *ID*	
+
+ID => *ID*	
+
+
+
+********************************Printing Follow sets*******************************
+A => 
+
+A1 => *$*	
+
+B => 
+
+E => *$*	
+
+
+
+********************************Printing LL1 TABLE*********************************
+A =>* 
+ID =>  B
+ID =>  ID
+
+
+A1 =>* 
+$ =>  @
+@ =>  @
+
+
+B =>* 
+ID =>  E
+ID =>  ID
+
+
+E =>* 
+ID =>  ID A1
+
+
+
+
+**********************************Parsing Input**************************************
+lex:ID
+
+top symbol is   :E:  lookahead   :ID
+E -->  ID A1
+top symbol is   :ID:  lookahead   :ID
+	
+match ID
+lex:$
+
+top symbol is   :A1:  lookahead   :$
+A1 -->  @
+top symbol is   :$:  lookahead   :$
+****************Accepted ***************** 

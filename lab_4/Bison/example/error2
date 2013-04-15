@@ -1,0 +1,10 @@
+int do_math(int a) {
+  int x = a * 5 + 3
+  
+	int   b = ; 
+	a = b < c
+	 
+
+}
+
+do_math(10)

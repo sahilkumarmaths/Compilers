@@ -1,0 +1,25 @@
+def : int showTable( )
+{
+	a = b *c;
+	while (a)
+	{
+		if (a < b < c)
+		{
+			break;
+		}
+		else
+		{
+			for(int a = 0; a >= b ; a = a-b)
+			{
+					do
+					{
+						a = 0;
+						call : Yess(a, b, c);
+						continue;
+					}while  ( ;
+			};
+		};
+		
+		a = b / c + 2 * 8;
+	};
+};$
