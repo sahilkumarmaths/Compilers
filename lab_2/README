@@ -5,6 +5,22 @@ Author:
 	Sahil Kumar Goyal              
 Date:
 	5/3/2013
+	
+*****************************************************************	
+Assignment 2(a).
+	Take a language which is a subset of C. You may take any other
+	language (or its subset). Define its alphabets and the tokens 
+	using regular expressions. From the tokens, generate the 
+	transition diagrams and display them in form of a table.
+	Take a sample program in the language you have considered. 
+	Perform lexical analysis for the program and generate the symbol
+	table. Also, your lexical analysis module should have error 
+	detection capability.
+
+Assignment 2(b).
+	Implement a Lexical analyzer using lex for the same language
+	considered above.
+	
 *****************************************************************
 Compilation:
 	g++ lexer.cpp				
