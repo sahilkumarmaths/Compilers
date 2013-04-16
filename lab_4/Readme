@@ -1,0 +1,14 @@
+/******************************************************************/
+Assignment 3: Simple 3 address code generation
+	Output of Parser:
+           x:=y op z
+  where x,y and z are "id", and ‘op’ stands for any operator.
+ 
+  The three address code is
+ 
+      t1:=y*z
+      t2:=x+t1
+      d:=t2
+ 
+  where t1 and t2 are compiler-generated temporary variables.
+/*******************************************************************/
